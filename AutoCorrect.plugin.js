@@ -1,13 +1,12 @@
 //META{"name":"AutoCorrect","website":"https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/README.md","source":"https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/AutoCorrect.plugin.js"}*//
 
-class AutoCorrect {
-	
-    getName() { return "AutoCorrect"; }
+getName() { return "AutoCorrect"; }
     getDescription() { return "Automatically replaces misspelled words with the first correction, with optional automatic capitalization and punctuation. Requires either Windows 8 or above, Mac, or DevilBro's SpellCheck plugin."; }
+    getVersion() { return "1.3.4"; }
     getVersion() { return "1.3.5"; }
-	getAuthor() { return "Metalloriff"; }
-	getChanges() {
-		return {
+    getAuthor() { return "Metalloriff"; }
+    getChanges() {
+        return {
 			"1.2.4" :
 			`
 				Fixed learned words.
